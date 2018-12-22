@@ -15,7 +15,7 @@ public class magento
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(url);
 		
-      Thread.sleep(3000);
+     
       
       driver.findElement(By.linkText("My Account")).click();
       Thread.sleep(3000);
