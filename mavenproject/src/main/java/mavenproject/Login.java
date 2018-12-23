@@ -22,7 +22,7 @@ public class Login
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	public void typeEmail(String data)
 	{
 		email.sendKeys(data);

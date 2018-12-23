@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class Logout 
 {
 WebDriver driver;
-	
+
 	@FindBy(linkText="Log Out")
 	WebElement logout;
 
