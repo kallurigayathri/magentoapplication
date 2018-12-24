@@ -1,14 +1,16 @@
-package mavenproject;
+
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
-public class magento 
+public class MagentoTest 
 {
-	public static void main(String[] args) throws Exception {
+	@Test
+	public  void credentials() throws Exception {
 		WebDriver driver=new FirefoxDriver();
 		String url="http://www.magento.com";
 		
