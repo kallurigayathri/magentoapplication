@@ -3,12 +3,13 @@ package mavenproject;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class magento 
 {
 	public static void main(String[] args) throws Exception {
-		ChromeDriver driver=new ChromeDriver();
+		WebDriver driver=new FirefoxDriver();
 		String url="http://www.magento.com";
 		
 		driver.manage().window().maximize();
