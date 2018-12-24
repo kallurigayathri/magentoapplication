@@ -16,7 +16,7 @@ public class magento
 		driver.get(url);
 		
      
-      
+		Thread.sleep(3000);
       driver.findElement(By.linkText("My Account")).click();
       Thread.sleep(3000);
       driver.findElement(By.id("email")).sendKeys("nitinmanjunath1991@gmail.com");
